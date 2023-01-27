@@ -1,0 +1,141 @@
+.corp{
+
+}
+.corp__title{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #210E09;
+
+    background: #FFFFFF;
+    padding: 10px 12px 7px 12px;
+    max-width: 254px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.corp__maintitle{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+padding-top: 40px;
+}
+.corp__sectitle{
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+padding-top: 80px;
+}
+@media(max-width:430px){
+    .corp__maintitle{
+        font-size: 32px;
+    }
+}
+.corp__row{
+    display: flex;
+    justify-content: space-between;
+    max-width: 816px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    align-items: flex-end;
+}
+.corp__column:last-child{
+    padding-top: 40px;
+}
+.corp__icon{
+margin-left: auto;
+margin-right: auto;
+}
+.corp__secicon{
+    padding-top: 40px;
+}
+
+.corp__subtitle{
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+max-width: 330px;
+padding-top: 40px;
+}
+.secsubtitle{
+    padding-top: 51px;
+}
+.corp__whyWhe-title{
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 100px;
+margin-bottom: 60px;
+}
+.corp__whyWe{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.corp__whyWe:not(:last-child){
+    padding-bottom: 25px;
+}
+.corp li{
+    list-style-type:none;
+    position: relative;
+   text-align: start;
+
+}
+.corp li:before{
+    content: url(img/marker.svg);
+padding-right: 20px;
+}
+@media(max-width:714px){
+    .corp__row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .corp__sectitle{
+        padding-top: 40px;
+    }
+    .contacts{
+        padding-top: 40px;
+    }
+}
+
+@media(max-width:1008px){
+    .contacts{
+        padding-top: 30px;
+    }
+}
